@@ -3,7 +3,8 @@ using System.Text;
 
 namespace Animals
 {
-    public abstract class Animal
+    public abstract class Animal  //abstract class -> does not produce instance, not instantiatable, abstract calss can be inherited, abstract method must be implemented in direct
+        //children classes, abstarct method does not have a body , is not implemented
     {
         public Animal(string name, int age, string gender)
         {
